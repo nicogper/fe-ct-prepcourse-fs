@@ -2,6 +2,7 @@ body{
     background-color: burlywood;
 }
 .title{
+    font-size: 3em;
     color: red;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -12,4 +13,37 @@ body{
 #secundario {
     font-size: large;
     color: yellow;
+}
+#titulo {
+    border: 1em solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 1em;
+}
+
+.tarjeta {
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 100%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    padding: 1em 1em 1em 1em;
+    
+}
+.tarjeta:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#contenedor-tarjetas{
+    margin: auto;
+    width: auto;
+    border: 2px solid black;
+    padding: 1em 1em 1em 1em;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

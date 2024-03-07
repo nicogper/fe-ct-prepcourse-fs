@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primera pagina de Estilos CSS</title>
    <link rel="stylesheet" href="./Styles.css" />
+   <link rel="stylesheet" href="./reset.css" />
     </head>
     <body>
         <header>
@@ -12,13 +13,26 @@
         </header>
         <main>
            <h2 class="title" id="principal">Parte principal</h2>
-               <div>
+               <div id="titulo">
                  <section>
                     <h3>Primera seccion</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a ad sequi molestias voluptas voluptatem nam possimus repellendus quos doloribus, debitis facere hic voluptatum nesciunt vel reiciendis magni. Iure, itaque!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem natus, omnis dolor nostrum vero dignissimos error culpa eligendi adipisci, saepe dicta fugit quidem, illo quae pariatur facere eius quasi ipsum.</p>
-                    <img src="https://jaestic.com/wp-content/uploads/2012/12/01-1.jpg" style="width:500px;height:500px;"/>
-                 </section>
+                    <div id="contenedor-tarjetas">
+                        <div class="tarjeta">
+                           <h4>HTML</h4>
+                           <img src="./img/HTML orig.png" style="width:200px;height:200px;"/>
+                        </div>
+                        <div class="tarjeta">
+                           <h4>HTML</h4>
+                           <img src="./img/HTML orig.png" style="width:200px;height:200px;"/>
+                        </div>
+                        <div class="tarjeta">
+                           <h4>HTML</h4>
+                           <img src="./img/HTML orig.png" style="width:200px;height:200px;"/>
+                        </div>
+                     </div> 
+                  </section>
               </div>
            <h2 class="title" id="secundario">Parte secundaria</h2>
               <div>

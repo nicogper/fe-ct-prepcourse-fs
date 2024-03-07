@@ -1,0 +1,52 @@
+/* Reset de estilos */
+
+/* Estilos por defecto para elementos de bloque */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
+    border: 0; /* Elimina bordes */
+    font-size: 100%; /* Establece el tamaño de fuente al 100% del tamaño por defecto */
+    font: inherit; /* Hereda la fuente del elemento padre */
+    vertical-align: baseline; /* Establece la alineación vertical en la línea base */
+}
+
+/* Reset de roles de visualización HTML5 para navegadores antiguos */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block; /* Establece estos elementos como de bloque */
+}
+
+body {
+    line-height: 1; /* Establece la altura de línea en 1 */
+}
+
+ol, ul {
+    list-style: none; /* Elimina los estilos de lista (viñetas o numeración) */
+}
+
+blockquote, q {
+    quotes: none; /* Elimina las comillas de cita */
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none; /* Elimina el contenido antes y después de bloques de cita */
+}
+
+table {
+    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+    border-spacing: 0; /* Establece el espacio entre las celdas de la tabla a 0 */
+}
